@@ -13,4 +13,8 @@ end
 
 array = ["Tim", "Tom", "Jim"]
 
-hello_t
+hello_t(array) do |name|
+  if name.starts_with?("T")
+    puts "Hi, #{name}"
+  end
+end
