@@ -10,3 +10,6 @@ def hello_t (array)
 end
 
 # call your method here!
+
+array = ["Tim", "Tom", "Jim"]
+hello_t
